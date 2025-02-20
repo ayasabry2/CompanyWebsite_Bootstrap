@@ -1,0 +1,25 @@
+#About {
+    background-color: #87abee; 
+  }
+.navbar{
+    background-color: #87abee; 
+}
+.input-group-text {
+    background-color: #cfddf8; 
+}
+.carsel {
+    padding: 50px 0; 
+    min-height: 100px;
+    background-color: #f8f9fa; 
+  }
+  .carousel-inner {
+    padding: 20px;
+  }
+  .carousel-item {
+    font-size: 1.25rem; 
+  }
+  .carousel-indicators .active {
+    background-color: #007bff; 
+  }
+  
+

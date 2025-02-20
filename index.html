@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Company</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <section id="About">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5  fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+                  <li class="nav-item">
+                    <a class="nav-link px-5 active" aria-current="page" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-5 active" aria-current="page" href="#portfolio">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-5 active" aria-current="page" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item px-5 dropdown active">
+                    <a class="nav-link dropdown-toggle" href="# pricing" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pricing
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#pricing">Basic</a></li>
+                      <li><a class="dropdown-item" href="#pricing">Pro</a></li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#pricing">Premium</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4 active" aria-current="page" href="#contact">Contact</a>
+                  </li>
+                </ul>          
+              </div>
+            </div>
+        </nav>
+        <div class="container-fluid"  style="padding-top: 100px; padding-bottom: 200px;">
+            <h1 class="header text-center mt-5 text-white">Company</h1>
+            <h3 class="name my-3 text-center text-white" >We specialize in web design</h3>
+        <div class="input-group w-100 mt-3 ">
+            <input type="text" id="Email" class="form-control form-control-lg" placeholder="Email address" />
+            <button class="input-group-text"> Subscribe</button>
+          </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="portfolio">
+        <div class="row mb-5 justify-content-around">
+            <h3 class="header text-center my-5">Some of Our Work</h3>
+            <div class="col-12 col-md-6 col-lg-6">
+                <img
+                src="images/working-1.jpg"
+                alt="Project description"
+                class="rounded img-fluid p-5"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="This is my first project"
+              />
+              <p class="name text-center fw-bold">
+                We specialize in web design, Here is some of our work and designs made by our awesome team.
+            </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="accordion m-5" id="accordionExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                          aria-expanded="true" aria-controls="collapseOne">
+                         About Our Projects
+                        </button>
+                      </h2>
+                     
+                      <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>Project Overview</h5>
+                            <p>We built a fully-functional e-commerce website for a local business to sell products online.</p>
+                            <h6>Key Features:</h6>
+                            <ul>
+                                <li>Payment Gateway Integration</li>
+                                <li>Product Filters</li>
+                                <li>Customer Review System</li>
+                            </ul>
+                            <h6>Technologies Used:</h6>
+                            <p>Shopify, HTML, CSS, JavaScript, and MySQL.</p>
+                        </div>
+                      </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          About Our Projects
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>Project Overview</h5>
+                            <p>We built a fully-functional e-commerce website for a local business to sell products online.</p>
+                            <h6>Key Features:</h6>
+                            <ul>
+                                <li>Payment Gateway Integration</li>
+                                <li>Product Filters</li>
+                                <li>Customer Review System</li>
+                            </ul>
+                            <h6>Technologies Used:</h6>
+                            <p>Shopify, HTML, CSS, JavaScript, and MySQL.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="carsel">
+   
+    <h2 class="header text-center">What Our Customers Say</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active "
+          aria-current="true" aria-label="Slide 1" style=" width: 15px; height: 15px; border-radius: 50%; border:2px solid #007bff; "></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"  style=" width: 15px; height: 15px; border-radius: 50%; border:2px solid #007bff; "></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"  style=" width: 15px; height: 15px; border-radius: 50%; border:2px solid #007bff; "></button>
+      </div>
+  
+      <div class="carousel-inner px-5">
+        <div class="carousel-item active text-center fw-bold" data-bs-interval="1000">
+          <h5>Jane Smith</h5>
+          <p>"Professional, timely, and efficient. I loved working with this team!"</p>
+        </div>
+  
+        <div class="carousel-item text-center fw-bold" data-bs-interval="2000">
+          <h5>Michael Johnson</h5>
+          <p>"Their designs are exceptional! We saw an immediate boost in our conversions after working with them."</p>
+        </div>
+  
+        <div class="carousel-item text-center fw-bold">
+          <h5>John Doe</h5>
+          <p>"This company has completely transformed our online presence. Highly recommend their services!"</p>
+        </div>
+      </div>
+  
+      <button class="carousel-control-prev  mt-5 " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+  
+      <button class="carousel-control-next  mt-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg pt-3">
+      <div class="text-center">
+        <h2>Pricing</h2>
+        <p class="lead text-muted">Choose a pricing plan that works for you.</p>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-around">
+
+        <div class="col-8 col-lg-3 col-xl-3">
+
+          <div class="card border-1 text-bg-pr mb-2 border-primary">
+            <div class="card-header text-center text-dark bg-primary-subtle ">Basic</div>
+            <div class="card-body text-center py-4">
+              <p class="lead card-subtitle my-1">20 lorem</p>
+              <p class="lead card-subtitle my-1">15 lpsum</p>
+              <p class="lead card-subtitle my-1">5 Dolor</p>
+              <p class="lead card-subtitle my-1">2 Sit</p>
+              <p class="lead card-subtitle my-1"><span class="spa fw-bold">Endles</span> Amet</p>
+              <hr/>
+              <p class="display-6 my-2 text-primary">$12.99</p>
+              <p>Per month</p>
+              <a href="#" class="btn btn-outline-primary bg-primary-subtle btn-lg mt-2">
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-8 col-lg-3 col-xl-3">
+
+          <div class="card border-1 text-bg-pr mb-2 border-primary">
+            <div class="card-header text-center text-dark bg-primary-subtle ">Pro</div>
+            <div class="card-body text-center py-4">
+              <p class="lead card-subtitle my-1">20 lorem</p>
+              <p class="lead card-subtitle my-1">15 lpsum</p>
+              <p class="lead card-subtitle my-1">5 Dolor</p>
+              <p class="lead card-subtitle my-1">2 Sit</p>
+              <p class="lead card-subtitle my-1"><span class="spa fw-bold">Endles</span> Amet</p>
+              <hr/>
+              <p class="display-6 my-2 text-primary">$12.99</p>
+              <p>Per month</p>
+              <a href="#" class="btn btn-outline-primary bg-primary-subtle btn-lg mt-2">
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-3 col-xl-3">
+          <div class="card border-1 text-bg-pr mb-2 border-primary">
+            <div class="card-header text-center text-dark bg-primary-subtle ">Premium</div>
+            <div class="card-body text-center py-4">
+              <p class="lead card-subtitle my-1">20 lorem</p>
+              <p class="lead card-subtitle my-1">15 lpsum</p>
+              <p class="lead card-subtitle my-1">5 Dolor</p>
+              <p class="lead card-subtitle my-1">2 Sit</p>
+              <p class="lead card-subtitle my-1"><span class="spa fw-bold">Endles</span> Amet</p>
+              <hr/>
+              <p class="display-6 my-2 text-primary">$12.99</p>
+              <p>Per month</p>
+              <a href="#" class="btn btn-outline-primary bg-primary-subtle btn-lg mt-2">
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="footer bg-light text-dark py-3" id="contact">
+        <h3 class="text-center">Contact</h3>
+        <div class="container">
+          <div class="row">
+      
+            <div class="col-12 col-md-6">
+              <p class="para"><i class="bi bi-info-circle-fill text-primary me-2"></i> Contact us and we'll get back to you within 24 hours.</p>
+              <p class="para"><i class="bi bi-geo-alt-fill text-primary me-2"></i> Chicago, US</p>
+              <p class="para"><i class="bi bi-telephone-fill text-primary me-2"></i> +001515151515</p>
+              <p class="para"><i class="bi bi-envelope-fill text-primary me-2"></i> myemail@something.com</p>
+            </div>
+      
+            <div class="col-12 col-md-6">
+      
+              <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                  <div class="input-group">
+                    <input type="text" id="name" class="form-control " placeholder="Name" />
+                    <span class="input-group-text">
+                      <i class="bi bi-person-fill text-primary"></i>
+                    </span>
+                  </div>
+                </div>
+      
+                <div class="col-12 col-md-6 mb-4">
+                  <div class="input-group">
+                    <input type="email" id="email" class="form-control  " placeholder="Email" />
+                    <span class="input-group-text border-0 ">
+                      <i class="bi bi-envelope-at-fill text-primary"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="mb-4 form-floating">
+                <textarea class="form-control" id="query" style="height: 100px" placeholder="query"></textarea>
+                <label for="query">Comment</label>
+              </div>
+
+              <div class="mb-4 d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>
